@@ -1,0 +1,28 @@
+{
+  "name": "bullqueuepostgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config -r esm ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.2.0",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "ioredis": "^4.28.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "redis": "^4.0.1",
+    "sequelize": "^6.12.0-beta.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0"
+  }
+}
